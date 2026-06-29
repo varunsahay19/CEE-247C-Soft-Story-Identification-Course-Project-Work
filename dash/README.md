@@ -182,7 +182,7 @@ The methodology is designed to support, not replace, engineering judgment - serv
 
 ## Technical Report
 
-For complete methodology, evaluation details, and literature review, see the [full technical report](technical_report.pdf).
+For complete methodology, evaluation details, and literature review, see the [full technical report](/technical_report.pdf).
 
 ## Citation
 
