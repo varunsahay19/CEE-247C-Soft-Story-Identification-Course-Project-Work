@@ -6,7 +6,7 @@ Computer vision system for automated soft-story building identification using DI
 
 Dash Beavers's part of this project develops an AI pipeline that automatically identifies seismically vulnerable soft-story buildings from Google Street View imagery. The system combines state-of-the-art computer vision models (GroundingDINO, DINO v2) with custom classification networks to reduce manual building inspections by 51.3% while maintaining 82.7% recall for safety-critical applications.
 
-![Pipeline Architecture](dash/results/pipeline_architecture.png)
+![Pipeline Architecture](results/pipeline_architecture.png)
 
 ## Key Results
 
@@ -15,7 +15,7 @@ Dash Beavers's part of this project develops an AI pipeline that automatically i
 - **Successful transfer learning** to Los Angeles buildings
 - **Multi-view fusion** strategies for improved building-level predictions
 
-![Workflow Demonstration](dash/results/workflow_demonstration.png)
+![Workflow Demonstration](results/workflow_demonstration.png)
 
 ## Technical Approach
 
@@ -116,7 +116,7 @@ results = fusion.analyze_test_set_performance(df)
 
 Successful validation on Los Angeles buildings demonstrates cross-city generalization:
 
-![LA Validation Examples](dash/results/la_validation_example.png)
+![LA Validation Examples](results/la_validation_example.png)
 
 The model correctly identifies structural characteristics across different:
 - **Architectural styles** (SF Victorian vs LA Commercial)
